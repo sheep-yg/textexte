@@ -1,0 +1,364 @@
+body {background-color: black;}
+
+/* 메인 비주얼 */
+#intro {
+    background-color: black; 
+    width: 100vw; height: calc(400vh - 200px);
+    position: relative;
+    z-index: 2;
+}
+
+#intro .intro {    
+    width: 100vw; height: calc(100vh - 50px);
+    z-index: 2;
+    position: sticky; top: 50px;
+}
+
+#intro .intro div {
+    width: 100vw; height: calc(100vh - 50px);
+    position: relative;
+}
+#intro img {position: absolute; filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.35));}
+
+
+.scroll_info {
+    position: absolute !important;
+}
+.scroll_info p {
+    position: absolute; width: 12rem;
+    left: calc(50% - 7rem); bottom: 5rem;
+    z-index: 10; 
+
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+
+    color: #1644C0;  background-color: white;
+
+    margin: auto; margin-bottom: 1rem;
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.35));
+}
+
+.scroll_info img {
+    width: 5rem; left: calc(50% - 2.5rem);
+    bottom: 3rem;
+}
+
+
+
+
+
+
+/* 인트로 이미지 */
+.intro_1 {display: block;}
+.intro_2, .intro_3, .intro_4 {display: none;}
+
+
+
+
+
+/* 1단계 */
+.sticker {
+    width: 18rem; 
+    top: calc(50% - 13rem); left:26.5rem;
+}
+.textBlack {
+    width: 30rem; 
+    top: calc(50% - 5rem); left: calc(50% - 15rem);
+    z-index: 2;
+}
+
+.intro_1 {}
+
+.img1-1-1 {
+    width: 34rem; 
+    bottom: 1.5rem; left: 14rem;
+}
+.img1-2-1 {
+    width: 21rem; 
+    top: 2.5rem; left: 27rem;
+}
+.img1-3-1 {
+    width: 15rem;
+    top: 24rem; left: 43.5rem;
+}
+.img1-6-1 {
+    width: 26rem;
+    top: 3rem; right: 10rem;
+}
+.img2-2-1 {
+    width: 27rem;
+    top: 18rem; right: 15rem;
+}
+.img2-4-2 {
+    width: 15rem;
+    top: 8rem; left: 5.5rem;
+}
+
+
+
+/* 2단계 */
+.intro_2 {}
+
+.intro_2 .img1-sticker-301 {
+    width: 7rem;
+    top: 20rem; left: 18rem;
+    transform: rotate(-45deg);
+}
+
+.img2-sticker-202 {
+    width: 7.5rem;
+    top: 27rem; left: 33rem;
+    transform: rotate(10deg);
+    z-index: 2;
+}
+
+.img1-sticker-404 {
+    width: 6rem;
+    top: calc(50% - 9rem); right: 42rem;
+    transform: rotate(15deg);
+    z-index: 3;
+}
+
+.img2-sticker-401 {
+    width: 7.5rem;
+    top: 15rem; right: 36rem;
+    transform: rotate(8deg);
+}
+
+.img1-sticker-403 {
+    width: 7.5rem;
+    top: 11rem; right: 15rem;
+    transform: rotate(-25deg);
+}
+
+
+
+/* 3단계 */
+
+.intro_3 {}
+
+.intro_3 .img1-sticker-301, .intro_4 .img1-sticker-301 {
+    width: 7rem;
+    top: 31rem; left: 39rem;
+    transform: rotate(-45deg);
+    z-index: 1;
+}
+
+.intro_3 .img1-1-1 {
+    bottom: 16rem !important;
+}
+
+.img2-sticker-302 {
+    width: 7rem;
+    top: 16.5rem; left: 47rem;
+    transform: rotate(-25deg);
+}
+
+
+.img1-sticker-102{
+    width: 6rem;
+    top: 13.5rem; left: 39rem;
+    transform: rotate(-20deg);
+}
+
+/* 4단계 */
+.intro_4 {}
+
+.intro_4 .img1-sticker-403 {
+    width: 7.5rem;
+    top: 19rem; right: 32rem;
+    transform: rotate(-25deg);
+}
+
+.img1-sticker-401 {
+    width: 11rem;
+    top: 28rem; right: 30rem;
+    transform: rotate(15deg);
+}
+
+.img1-sticker-101 {
+    width: 6.5rem;
+    top: 28.2rem; right: 46rem;
+    transform: rotate(-55deg);
+}
+
+
+#nav_margin {
+    height: 15rem; background-color: black;
+}
+
+.project_info {
+    height: 73rem; background-color: black;
+    position: relative;
+}
+
+.project_info img {position: absolute;}
+
+.project_info  .info_text {
+   background-color: white;
+
+    position: absolute;
+    top: 37rem; left: 8rem;
+    width: 27rem; height: auto;
+
+    padding: 2rem; 
+
+    word-break: keep-all;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+}
+
+.project_info .white_box, .project_info .blue_box {
+    position: absolute; 
+
+}
+
+.project_info .blue_box {
+    transform: rotate(5deg);
+    font-size: 0.9rem;
+}
+
+
+.project_info .wiki {
+    position: absolute;
+    width: 22.5rem;
+    top: 50rem; left: 36rem;
+
+    z-index: 10;
+}
+
+
+.project_info .white_1 {
+    top: 44rem; left: 50rem;
+    font-size: 0.8rem;
+}
+
+.project_info .white_2 {
+    bottom: 1rem; right: 1rem;
+    font-size: 0.8rem;
+}
+
+.project_info .blue1 {
+    top: 38rem; left: 77.5rem;
+} 
+
+.project_info .blue2 {
+    top: 41rem; right: 14.5rem;    
+} 
+
+.project_info .blue3 {
+    top: 46rem; right: 11rem;
+}
+
+.project_info .blue4 {
+    top: 68rem; right: 36rem;
+} 
+
+.project_info .blue5 {
+    top: 75rem; left: 12rem;
+} 
+
+.project_info .blue6 {
+    top: 78rem; left: 12rem;
+} 
+
+
+
+
+.info_eyes {
+    width: 8rem;
+    top: 39rem; right: 13rem;
+    z-index: 15;
+
+    display: none;
+}
+
+.info_scroll {
+    width: 20rem;
+    bottom: 2rem;
+    right: 4rem;
+
+    display: none;
+}
+
+.info_emoji {
+    width: 8rem;
+    top: 46rem; right: 11rem;
+    transform: rotate(3deg);
+
+    display: none;
+}
+
+.wiki2 {
+    display: none;
+    z-index: 10rem;
+    position: relative;
+}
+
+
+.plus {
+    width: 3rem;
+    top: 71.5rem; left: 59rem;
+    display: none;
+}
+
+.imgimg {
+    width: 4rem;
+    top: 71rem; left: 63rem;
+    display: none;
+}
+
+
+
+.info_text_blind {
+    display: none;
+}
+
+.info_text_blind hr {
+    position: absolute;
+    top: 39.2rem;
+
+    border: 3px solid black;
+    width: 27.5rem;
+    left: 9.5rem;
+}
+
+.info_text_blind .hr2 {
+    top: 40.7rem
+}
+.info_text_blind .hr3 {
+    top: 42.2rem;
+    width: 23rem;
+}
+.info_text_blind .hr4 {
+    top: 43.7rem;
+    width: 14rem;
+    left: 23rem;
+}
+.info_text_blind .hr5 {
+    top: 47rem;
+}
+.info_text_blind .hr6 {
+    top: 48.5rem;
+}
+.info_text_blind .hr7 {
+    top: 50rem;
+    width: 19rem;
+}
+.info_text_blind .hr8 {
+    top: 54.7rem;
+    left: 31rem;
+}
+.info_text_blind .hr9 {
+    top: 56.2rem;
+    width: 10rem;
+}
+
+
+
+
+#close {
+    margin-top: 40rem !important;
+}

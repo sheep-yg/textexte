@@ -1,0 +1,520 @@
+body{font-family: 'Noto Sans KR', sans-serif;}
+.shadow {box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);}
+.chapter_nav_margin {width: 100%; height: 100vh;}
+
+
+body, section {width: 100%;height: 100%;}
+body {background: black;}
+
+/* 헤더 */
+header {
+  position: absolute;
+  top: 0vh;
+}
+
+header .h2_box { animation-delay: 1s; }
+
+header .white_box {
+  animation-delay: 2s;
+}
+
+
+img {position: absolute;}
+.h1_img {position: relative;}
+
+/* white_box */
+.info_1 {
+  position: absolute;
+  top: 15%; right: 24%;
+}
+/* blue_box */
+.info_title {
+  position: absolute;
+  top: 12%;
+  right: 18%;
+}
+
+
+
+/* 하단 이미지 요소 */
+.container {
+  position: relative; 
+  width: 100%;height: 100%;
+}
+
+#img1 {display: block;}
+#img2 {display: none;}
+#img3 {display: none;}
+#img4 {display: none;}
+
+
+
+
+
+
+/* 스티커, 사전 등의 데코 요소 */
+#deco {
+  position: absolute;
+  width: 100%; height: auto;
+}
+
+#deco div {
+  position: relative;
+}
+
+#deco div .blue_box{
+  position: absolute;
+}
+
+
+
+.box div {
+  position: relative;
+}
+
+.box div img {
+  z-index: 10;
+}
+
+
+
+/* 상단영역 */
+.h1_img {
+  width: auto; height: 115px;
+  padding-top: 18rem;
+  padding-left: 6%;
+}
+
+.h2_box {
+  width: 57%; 
+  padding-left: 6%;
+  padding-top: 7rem;
+}
+
+h2 {
+  color: white; 
+  font-size: 1.6rem; font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+}
+
+
+/* 설명 요소 */
+.white_box {
+  display: inline-block;
+  width: auto;
+  background-color: white; color: black;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 300;
+  padding: 20px 15px;
+  border: 1px solid black;
+}
+
+.blue_box {
+  display: inline-block;
+  width: auto;
+  background-color: #1644C0; color: #D38098;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  z-index: 15;
+}
+
+.box_rotate {transform: rotate(-14deg);}
+
+
+/* 네비게이션 */
+nav{
+  position: sticky;
+  height: 50px; top: 0;
+  text-align: center; 
+  
+  z-index: 130; 
+  
+  background: #1644C0; 
+}
+
+.nav {
+  padding: 0 6%;
+  margin: 0 auto;
+
+}
+
+nav a {
+  color: white; display:block; 
+	font-weight: 500; font-size: 1.2rem; 
+  line-height: 50px;
+}
+nav img { 
+  width: auto; height: 25px;
+  padding: 12px 0px;
+}
+
+nav .home {
+  height: 50px; width: auto; float: left; 
+	text-align: center;
+}
+nav ol{float: right;}
+nav ol li{
+  list-style-type: none; 
+  width:130px; 
+  float: left;
+	line-height: 50px; text-align: center;
+}
+
+
+
+/* progress bar */
+.sticky {
+  position: sticky;
+  width: 100%; height: 100%;
+  top: 80%;
+  z-index: 400;
+}
+
+.btn_box {
+    position: absolute;
+    width: 385px; height: 130px;
+    background-color: #1644C0;
+    right: 3.5rem;
+  font-family: 'Montserrat';
+  z-index: -2;
+}
+
+.btn_box p {
+  color: #D38098;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 20px 30px;
+
+}
+
+.btn_box .line {
+  width: 290px;
+  height: 6px;
+  position: absolute;
+  left: 15%;
+  top: 60%;
+  background-color: white;
+  
+  transition: all 0.5s;
+}
+
+.btn_box .progressbar {
+  counter-reset: step;
+  z-index: 6;
+}
+
+.btn_box .progressbar li { 
+  color: #D38098;
+  float: left; 
+  width: 9%;
+  margin: 0% 8%;
+  position: relative;
+  text-align: center;
+  z-index: 6;
+  font-weight: 600;
+  font-size: 1.3rem;
+  transition: all .3s;
+}
+
+.btn_box .progressbar li:before {
+  content: counter(step);
+  counter-increment: step;
+  width: 30px; height: 30px;
+  line-height: 30px;
+  border: 1px solid white;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 500;
+}
+
+.btn_box .progressbar li:first-child:after {display: none;}
+
+
+
+
+/* 버튼 액티브 정의 */
+/* 액티브를 나중에 js에 넣어줘서 단계 설정 가능 */
+.btn_box .progressbar li.active {
+  color: white;
+}
+.btn_box .progressbar li.active:before {
+  border-color: #D38098;
+  background-color: #D38098;
+  transition: all .2s;
+  transition-delay: .3s;
+}
+
+
+
+
+
+
+/* 챕터 선택 및... */
+#close {
+  margin-top: 60rem;
+  background-color: black;
+  position: relative;
+  z-index: 410;
+}
+
+
+#close img {position: relative;}
+
+#close .chapter_tag {
+  position: absolute;
+  left: calc(50% - 13.5rem);
+  width: auto;
+}
+
+#close .chapter_tag .tag1 {
+  width: 20rem;
+}
+
+#close .chapter_tag .tag2 {
+  width: 14rem; 
+  top: 1.5rem; right: 5rem;
+}
+
+
+#close .chapter_sticker {
+  padding-top: 20rem;
+  position: relative;
+  height: 50vh;
+  z-index: -2;
+}
+
+#sticker_chapter1 img {
+  width: 25rem;
+  top: 1rem;
+  left: 30rem;
+  transition: all 0.5s;
+}
+
+#sticker_chapter2 img{
+  width: 14rem;
+  top: 8rem; left: 24rem;
+  transition: all 0.5s;
+  animation-delay: 0.2s;
+}
+
+#sticker_chapter3 img{
+  width: 14rem;
+  left: 21rem;
+  z-index: -1;
+  transition: all 0.5s;
+  animation-delay: 0.1s;
+}
+
+#sticker_chapter1:hover img {
+  z-index: 100;
+  transform: scale(1.2) rotate(-10deg);
+}
+
+#sticker_chapter2:hover img{
+  z-index: 100;
+  transform: scale(1.2) rotate(15deg);
+}
+
+#sticker_chapter3:hover img {
+  z-index: 100;
+  transform: scale(1.2) rotate(-20deg);
+}
+
+.hoverOther {
+  transform: scale(0.85);
+  filter: brightness(50%);
+}
+
+
+.footer {
+  color: white;
+  text-align: center;
+  padding-top: 10.5rem;
+  padding-bottom: 4rem;
+
+  opacity: 80%;
+
+  font-family: 'Montserrat';
+}
+
+.footer .my {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.footer .univ {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+
+.sticker_text_box1 , .sticker_text_box2, .sticker_text_box3 {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  width: auto;
+  opacity: 0;
+
+  background-color: white; 
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  padding: 0.5rem;
+  transition: all 0.5s;
+}
+
+#sticker_chapter1 .sticker_text_box1 {
+  color: #FFB500;
+  top: 20rem; left: 21rem;
+  transform: rotate(15deg) scale(0.8);
+}
+
+#sticker_chapter1:hover .sticker_text_box1 {
+
+  transform: rotate(-5deg) scale(1.0);
+  opacity: 1;
+  z-index: 101;
+
+}
+
+#sticker_chapter2 .sticker_text_box2 {
+  color: #1644C0;
+  top: 44rem; left: 58rem;
+  transform: rotate(5deg) scale(0.8);
+}
+
+#sticker_chapter2:hover .sticker_text_box2 {
+  transform: rotate(15deg) scale(1.0);
+  opacity: 1;
+  z-index: 101;
+}
+
+
+#sticker_chapter3 .sticker_text_box3 {
+  color: #D38098;
+  top: 27rem; right: 21rem;
+  transform: rotate(0deg) scale(0.8);
+}
+
+#sticker_chapter3:hover .sticker_text_box3 {
+  z-index: 101;
+  opacity: 1;
+  transform: rotate(10deg) scale(1.0);
+}
+
+
+.footer_shadow {
+  box-shadow: 5px 3px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* -----------------------ketframes animation-------------------- */
+
+.animationEffect {
+  animation: replace 0.5s ease-in reverse;
+}
+
+@keyframes replace {
+  from {}
+  to { transform: rotate(15deg) scale(0.85); }
+
+}
+
+/* 타이핑 효과 */
+header .blue_box p {
+  position: relative; display: inline-block;
+  height: 23px; overflow: hidden;
+  animation: typingAni 3s steps(30, end)1;
+}
+
+header .blue_box p::after {
+  position: absolute; display: block;
+  width: 20px; height: 16px;
+  top: 4px; right: 0;
+  border-right: 1px solid #D38098;
+  content: "";
+  animation: cursor 0.7s step-end infinite;
+}
+
+@keyframes typingAni {
+  0% {width: 0%}
+  100% {width: 100%;}
+}
+
+@keyframes cursor {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+
+@keyframes rotate {
+  0% {transform: rotate(-10deg);}
+  20% {transform: rotate(-10deg);}
+  21% {transform: rotate(15deg);}
+  80% {transform: rotate(15deg);}
+  81% {transform: rotate(5deg);}
+  100% {transform: rotate(5deg);}
+}
+
+
+.animation_rotate {
+  animation: rotate 10s ease-in-out infinite;
+}
+
+
+
+@keyframes rotate2 {
+  0% {transform: rotate(0deg);}
+  60% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.animation_rotate2 {
+  animation: rotate2 6s ease-in-out infinite;
+}
+
+
+
+.blurEffect {
+  animation: blurAnimate 2s linear forwards;
+}
+
+@keyframes blurAnimate {
+  0% {
+		transform: rotate(0deg) translateY(0);
+		opacity: 1;
+		filter: blur(1px);
+	}
+	
+	100% {
+		transform: rotate(45deg) translateY(-250px);
+		opacity: 0;
+		filter: blur(20px);
+	}
+}
+
+.imgScale {
+  animation: 0.5s imgScaleAni ease-in-out forwards;
+}
+
+@keyframes imgScaleAni{
+  60% {transform: scale(1.1)}
+  100% {transform: scale(1.0);}
+}
+
+.imgScale0 {
+  animation: 0.5s imgScaleAni0 ease-in-out forwards;
+}
+
+@keyframes imgScaleAni0{
+  100% {
+    transform: scale(0);
+  }
+}

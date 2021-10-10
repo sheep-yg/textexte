@@ -1,0 +1,701 @@
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header .sticker {
+  position: absolute;
+  width: 27rem;
+  top: 8.5rem; right: 4rem;
+}
+
+
+/* news */
+.img101 { 
+	margin-top: 43rem;
+	height: 124vh;
+}
+
+.img101 .newspaper {}
+
+.img101 .shortnews {
+	width: 20vw;
+	top: 4.5vw; right: 34.5vw;
+}
+
+.img101 .short_word {
+	width: 15vw;
+	top: 13vw; right: 20.5vw;
+}
+
+.img101 .airplane {
+	width: 15vw;
+	top: 31vw; right: 37vw; 
+}
+
+.img101 .airplane_ai {
+	width: 10vw;
+    top: 31vw;
+    right: 40vw;
+	z-index: 100;
+	opacity: 0;
+}
+
+.img101 h2 , .img101 h3, .img101 .text_grid {position: absolute;}
+
+.img101 .h2_div {
+	color: black;
+	top: 12.5vw; left: 31.75vw;
+	z-index: 100;
+	font-weight: 700;
+	font-size: 1.7rem;
+	margin: 0; padding: 0;
+	display: flex;
+	width: 50vw;
+}
+
+.img101 h2 li {
+	line-height: none;
+}
+
+
+
+.img101 h3 {
+	top: 15vw; left: 31.75vw;	
+	font-size: 1.1rem;
+		z-index: 100;
+}
+
+.img101 .text_grid {
+	display: flex;
+	color: black;
+	top: 17.5vw; left: 31vw;
+	z-index: 100;
+	height: 45vh;
+}
+
+.img101 .text_grid div {
+	font-size: 0.7rem;
+	width: 15vw;
+	height: 45vh;
+	margin: 0 0.75rem;
+	line-height: 1.2rem;
+	font-weight: 300;
+	letter-spacing: -0.1px;
+}
+
+.img101 .step3text {
+	color: black;
+	top: 17.5vw; left: 31vw;
+	position: absolute;
+	z-index: 100;
+	width: 50vw;
+	height: 50vh;
+
+	opacity: 0;
+}
+
+.img101 .step3text h4 {
+	font-size: 2.4rem;
+	font-weight: 700;
+	letter-spacing: -0.1px;
+
+	position: absolute;
+	top: 8vw;
+	left: 0.6vw;
+}
+
+.img101 .step3text h5 {
+	font-size: 1.6rem;
+	font-weight: 500;
+	letter-spacing: -0.1px;
+
+	position: absolute;
+	top: 6vw;
+	left: 0.6vw;
+}
+
+.img101 .step3text h6 {
+	font-size: 1.3rem;
+	font-weight: 300;
+	letter-spacing: -0.1px;
+
+	position: absolute;
+	left: 0.6vw;
+}
+
+.img101 .step3text .text2 {
+	left: 10vw;
+}
+
+.img101 .step3text .text3 {
+	left: 18vw;
+	top: 2vw;
+}
+
+.img101 .textmove {
+	position: relative;
+}
+
+.img101 .step3img {
+	position: absolute;
+	z-index: 50;
+	width: 50vw;
+	height: 50vh;
+	top: 0;
+}
+
+.img101 .trip {
+	width: 26vw;
+    top: 15vw;
+    left: 31.75vw;
+}
+
+.img101 .calendar {
+	width: 15vw;
+    top: 31vw;
+    left: 40vw;
+}
+
+.img101 .X2wk {
+	width: 10vw;
+    top: 29vw;
+    left: 63vw;
+    z-index: 99;
+}
+
+.img101 .phone {
+	width: 6.5vw;
+    top: 25vw;
+    left: 32.5vw;
+}
+
+.trip, .calendar, .X2wk, .phone {
+opacity: 0;
+}
+
+/* 신문 */
+.newspaper_box {
+	height: 200vh;
+}
+
+.newspaper_box .dict_news {
+	width: 21.5rem; 
+	top: 15rem; left: 6rem;
+}
+.newspaper_box .chapter1_101 {
+	width: 10rem; 
+	top: 21rem; left: 49rem;
+	transform: rotate(0deg);
+	border-radius: 50%;
+	animation-delay: 0.3s;
+}
+.newspaper_box .chapter1_102 { 
+	width: 10rem;
+	top: 75rem; left: 83rem;
+	transform: rotate(5deg);
+	z-index: 101;
+
+}
+.newspaper_box .chapter1_103 { 
+	width: 16rem; 
+	top: 30rem; left: 38rem;
+	transform: rotate(-10deg);
+	z-index: -1; 
+}
+.newspaper_box .blue1 {
+	position: relative;
+	top: 29rem; left: 15rem;
+}
+.newspaper_box .blue2 {
+	position: absolute;
+
+	top: 33rem; left: 14rem;
+}
+.newspaper {
+	width: 57rem; left: 30rem;
+}
+
+.news_info_text {
+	position: absolute;
+    color: black;
+    top: 9.1vw;
+    left: 49.5vw;
+    z-index: 10;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+
+/* 칼럼 */
+
+.column_box, .img102 {
+	height: 200vh;
+}
+
+.img102 {
+	font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+	transform: rotate(-5deg);
+	overflow: hidden;
+	width: 80vw;
+}
+
+.img102 h2 {
+	width: 50vw;
+    top: 23vw;
+    left: 48.5vw;
+    color: black;
+    position: relative;
+    z-index: 100;
+
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 2rem;
+	font-weight: bolder;
+}
+
+.img102 .heading {
+	width: 50vw;
+	top: 15vw;
+    left: 17vw;
+    z-index: 100;
+    
+}
+
+.img102 .h3_div {
+	width: 50vw;
+
+	top: 1vw;
+    left: 2vw;
+
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.img102 .info_text1 {
+	top: 3.5vw;
+    left: 10vw;
+
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.img102 .title {
+	font-weight: 800;
+}
+
+.img102 .name {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 0.8rem;
+    top: 0.5vw;
+    position: relative;
+}
+.img102 .name_info {
+	font-size: 0.6rem;
+	font-weight: 300;
+}
+
+.img102 .info_text2 {
+	text-align-last: right;
+    top: -4vw;
+	right: -1vw;
+    font-size: 0.7rem;
+}
+
+.h3_div {font-size: 1rem;}
+
+.info_text1 {top: 2vw;}
+
+.img102 .change { 
+	width: 14vw;
+	top: 28vw;
+    left: 36vw;
+
+	opacity: 0;
+}
+
+.img102 .trash {
+	width: 13vw;
+	top: 17vw;
+    left: calc(50% + 15vw);
+
+	opacity: 0;
+}
+
+.img102 .moneytrash { 
+	width: 16vw;
+	top: 28vw;
+    left: calc( 50% + 12.1vw);
+
+	opacity: 0;
+}
+
+.img102 .readymade_typo {    
+	width: 30vw;
+    top: 58vw;
+    z-index: 101;
+    left: 28vw;
+
+	opacity: 0;
+}
+
+.artIs {
+	color: #1644C0;
+    z-index: 100;
+    font-size: 2.7rem;
+    font-family: 'Noto Sans KR';
+    top: 22vw;
+    position: absolute;
+    left: 52vw;
+    font-weight: 900;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+	opacity: 0;
+}
+.img102 .text_grid {
+	width: 50vw;
+	position: absolute;
+	z-index: 100;
+
+	top: 27vw;
+	left: 19vw;
+
+	color: black;
+	display: flex;
+}
+
+.img102 .text_grid div {
+	width: 16vw;
+	padding: .5vw;
+	line-height: 20px;
+	font-size: 0.8rem;
+}
+
+.img102 .text_grid div:nth-child(3) {
+	width: 14.5vw;
+}
+
+.img102 .fountain {
+	position: relative;
+	bottom: 0;
+	left: 0;
+
+	width: 15vw;
+	padding-top: 1vw;
+}
+
+.img102 .gift { 
+	position: relative;
+	bottom: 0;
+	left: calc( 50% - 8vw);
+	
+	width: 16vw;
+	padding-top: 1vw;
+}
+
+.img_info {
+	color: gray;
+	font-size: 0.6rem;
+}
+
+.mainText {
+	font-size: 1.4rem !important;
+	font-weight: bolder;
+	line-height: 30px !important;
+
+	top: -12vw;
+	opacity: 0;
+	padding:0 !important;
+}
+
+.column_box .blue1 {
+	position: absolute;
+	top: 3rem; right: 33.5rem;
+}
+
+
+.column_box .dict_column { 
+	width: 22rem;
+	top: 2rem;
+	right: 5rem;
+}
+
+.column_box .chapter1_201 {
+	width: 10rem;
+	top: -7rem; right: 28rem;
+}
+
+.column_box .chapter1_202 {
+	width: 11rem; 
+	top: 62rem; left: 6rem;
+	z-index: 11;
+}
+
+.column_box .chapter1_203 {
+	width: 11rem;
+	top: 71rem; left: 12rem;
+	transform: rotate(5deg);
+	opacity: 1;
+}
+
+.column {
+	width: 53vw;  
+	top: 15vw; left: 17vw;
+}
+
+
+/* 책 */
+.book_box {
+	height: 200vh;
+}
+
+.book_box .chapter1_301 {
+	width: 9rem;
+	top: -20rem; right: 25rem;
+	transform: rotate(-25deg);
+
+}
+
+.book_box .chapter1_302 {
+	width: 13rem;
+	top: 13rem; left: 16rem;
+	transform: rotate(5deg);
+
+}
+
+.book_box .chapter1_303 {
+	width: 20rem;
+	top: 28rem; left: 13rem;
+	transform: rotate(-35deg);
+	z-index: -1;
+}
+
+.book_box .chapter1_303_2 {
+	width: 20rem;
+	top: 11rem; left: 31rem;
+	transform: rotate(-35deg);
+	z-index: -1;
+}
+
+.book_box .blue1 {
+	top: -25rem; right: 14rem;
+}
+
+.book_box .blue2 {
+	top: -22rem; right: 8rem;
+}
+
+.book {
+	width: 28rem;
+	right: calc(50% - 14rem);
+}
+
+
+
+
+/* 약 */
+.drug_box {
+	height: 200vh;
+}
+
+.drug_box .dict_drug {
+	width: 22rem;
+	top:-50rem ; right: 12rem;
+}
+
+.drug_box .chapter1_401 {
+	width: 20rem;
+	top: -23rem; right: 10rem;
+	transform: rotate(7deg);
+	animation-delay: 4s;
+}
+
+.drug_box .chapter1_402 {
+	width: 10rem;
+	top: -41rem; right: 12rem;
+}
+
+.drug_box .chapter1_403 {
+	width: 8rem;
+	top: -35rem; right: 8rem;
+	transform: rotate(15deg);
+}
+
+.drug_box .chapter1_404 {
+	width: 8rem;
+	top: -45rem; left: 50rem;
+	transform: rotate(-25deg);
+}
+
+.drug_box .chapter1_pill_front {
+	width: 50rem;
+	top: -13rem; 
+	transform: rotate(-35deg);
+}
+
+.drug_box .chapter1_pill {
+	width: 22rem;
+	transform: rotate(55deg);
+	left: 50rem;
+}
+
+.drug {
+	width: 70rem;
+	transform: rotate(5deg);
+}
+
+.drug_box .blue1 {
+	top: -46rem;
+	left: 39rem;
+}
+
+
+
+/* 우유 */
+.milk_box {}
+
+.milk_box .chapter1_501 {
+	width: 10rem;
+	top: -33rem; right: 50rem;
+}
+
+.milk_box .chapter1_502 {
+	width: 10rem;
+	top: -10rem; right: 24rem;
+
+}
+
+.milk_box .chapter1_503 {
+	width: 14rem;
+	top: -7rem; right: 26rem;
+	transform: rotate(10deg);
+}
+
+
+.milk_box .milk_mockup {
+	width: 20rem;
+	top: -32rem; left: 14rem;
+	transform: rotate(-15deg);
+	filter: brightness(0.85);
+}
+
+
+.milk {
+	width: 19rem; 
+	top: 0rem; left: 27rem;
+	transform: rotate(5deg);
+}
+
+
+
+
+/* 이어폰 설명서 */
+.doc_box {
+	height: 200vh;
+}
+
+.doc_box .dict_doc {
+	width: 22rem;
+	top: 30rem;
+	right: 10rem;
+}
+
+.doc_box .chapter1_601 {
+	width: 9rem;
+	top: 40rem; right: 30rem;
+	transform: rotate(-25deg);
+	z-index: -1;
+}
+
+.doc_box .chapter1_602 {
+	width: 9rem;
+	top: 54rem; left: 7rem;
+	transform: rotate(10deg);
+}
+
+.doc {
+	width: 60rem;
+	left: 20rem;
+	transform: rotate(-6deg);
+}
+
+.doc_box .blue1{
+	top: 60rem;
+	left: 13rem;
+}
+
+
+
+/* 벌레잡이 */
+.bug_box {}
+
+.bug_box .chapter1_701{
+	width: 10rem;
+	top: 35rem;
+	right: 10rem;
+	transform: rotate(23deg);
+	z-index: 15;
+
+}
+
+.bug_box .chapter1_702{
+	width: 9rem;
+	top: 85rem;
+	left: 31rem;
+}
+
+.bug_box .chapter1_703{
+	width: 10rem;
+	top: 90rem; left: 24rem;
+	border-radius: 50%;
+	transform: rotate(-25deg);
+}
+
+.bug {
+	width: 39rem;
+	top: -40rem; right: 20rem;
+	transform: rotate(12deg);
+}
+
+.bug_box .blue1 {
+	top: 83rem;
+	left: 10rem;
+}
+
+.bug_box .blue2 {
+	top: 85rem;
+	left: 13rem;
+}
+
+
+
+/*------------------ animation effect ------------------*/
+
+@keyframes stickerAni {
+	0% { transform: rotate(2deg) translate3d(0px, -10px, 0px); }
+	25% { transform: rotate(0deg) translate3d(-10px, 0px, 0px); }
+	50% { transform: rotate(-2deg) translate3d(0px, 10px, 0px); }
+	75% { transform: rotate(0deg) translate3d(10px, 0px, 0px); }
+	100% { transform: rotate(2deg) translate3d(0px, -10px, 0px); }
+}
+
+.stickerTransform {
+	animation: stickerAni 3s infinite;
+}
+
+@keyframes pill {
+	0% {
+		top: -100px;
+		left: 950px;
+		transform: rotate(45deg);
+	}
+
+	100% {
+		top: 0;
+	}
+}
+.pill_effect {
+	animation: pill 2s ease-in-out;
+}

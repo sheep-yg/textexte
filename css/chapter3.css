@@ -1,0 +1,103 @@
+header .sticker3 {
+	position: absolute;
+	width: 15rem;
+	top: 9.5rem; right: 11rem;
+	z-index: 10;
+}
+
+
+
+/* --------------- 포스터 1 --------------- */
+
+.poster1Box {
+	height: 230vh;
+}
+
+.poster1 {
+	width: 50vw;
+    top: 30vw;
+    left: calc(50% - 10vw);
+    transform: rotate(10deg);
+}
+
+
+/*  --------------- 포스터 1 스티커 ---------------- */
+
+.dict_poster {
+	width: 22vw;
+	top: 5vw;
+	left: 10vw;
+}
+
+.blue1 {
+	top: 20vw;
+    left: 8vw;
+}
+
+
+
+
+/* --------------- 포스터 2 ---------------- */
+.poster2Box {
+	height: 200vh;
+}
+
+.poster2 {
+	width: 47vw;
+	left: 10vw;
+}
+
+
+/* --------------- 포스터 2 스티커 ---------------- */
+
+
+
+
+/* ----------------- meme 1 ---------------- */
+.meme1Box {
+	height: 140vh;
+}
+
+.meme1 {
+	width: 50vw;
+    top: 23vw;
+    right: 15vw;
+}
+
+.meme1Video{
+	padding-left: 10vw;
+}
+
+
+/* ------------------ meme1 sticker ----------------- */
+.dict_meme {
+	width: 22vw;
+    right: 14vw;
+    top: -30vw;
+}
+
+.blue2 {
+	top: -12vw;
+    right: 24vw;
+}
+
+
+
+/* ----------------- meme 2 ---------------- */
+.meme2Box {
+	height: 140vh;
+}
+
+.meme2 {
+	top: 20vw;
+	width: 50vw;
+	right: 30vw;
+}
+
+.meme2Video {
+	position: relative;
+	left: calc(50% + 8vw);
+}
+
+
+/* ------------------ meme2 sticker ----------------- */

@@ -1,0 +1,287 @@
+header .sticker2 {
+  position: absolute;
+  width: 17rem;
+  top: 9.5rem; right: 11rem;
+  z-index: 10;
+}
+
+.info_1 {
+  top: 16%
+}
+
+
+/* ------------- 소설 ------------ */
+
+.novel { 
+  width: 38vw;
+  top: 31vw;
+  left: 30vw;
+  /*transform: rotate(-10deg);*/
+}
+
+.novelBox {
+  height: 230vh;
+}
+
+.dict_novel {
+  width: 22vw;
+  right: 10vw;
+}
+
+.chapter2_101 {
+  width: 10vw;
+  top: 10vw;
+  left: 10vw;
+  transform: rotate(15deg);
+}
+
+.chapter2_102 {
+  width: 22vw;
+  top: 20vw;
+  left: 15vw;
+  z-index: -1;
+}
+
+.blue1 {
+  top: 36vw;
+  left: 5vw;
+}
+
+.blue2 {
+  top: 38.5vw;
+  left: 8vw;
+}
+
+
+
+/* ------------- 뉴스1 ------------ */
+.moniter {
+  width: 76.4vw; height: 110vh;
+  left: calc(50% - 40vw);
+  background-color: white;
+  border: solid 30px #E5E5E5;
+  border-radius: 30px 30px 0px 0px;
+  color: black;
+}
+
+.textext {
+  font-weight: 300;
+  line-height: 1.7rem;
+}
+
+
+.moniter_top {
+  width:76.4vw;
+  position: relative;
+}
+
+.moniter_margin {
+  margin: 4vw 7vw;
+}
+
+hr {
+  height: 1px;
+  background-color: black;
+}
+
+.tag {
+  width: auto;
+  font-size: 0.8rem;
+  background-color: lightgray;
+  display: inline;
+  padding: 3px;
+  color: white;
+}
+
+.text {
+  width: 40vw;
+}
+
+.moniter h2, .moniter2 h2 {
+  color: black;
+  font-weight: bold;
+  padding-bottom: 0.6vw;
+  padding-top: 0.3rem;
+}
+
+.small {
+  font-size: .5rem;
+  color: #939393;
+}
+
+.news_button {
+  position: relative;
+  width: 7vw;
+  padding: 1.2rem 0;
+}
+
+.textext {
+  padding-top: 1.5rem;
+}
+
+.computer {
+  width: 80vw;
+  left: calc(50% - 40vw);
+}
+
+.news_side {
+  top: 2vw;
+  width: 20vw;
+  right: -1vw;
+}
+
+/* ------------- 뉴스1 스티커 ------------ */
+
+.news1Box {
+  height: 230vh;
+}
+
+.sticker_201 {    
+  width: 10vw;
+  top: -10vw;
+  transform: rotate(-15deg);
+  right: 3vw;
+}
+
+.dict_news {
+  width: 22vw;
+  right: 10vw;
+  top: -20vw;
+}
+
+.sticker_202 {
+  z-index: 102;
+  width: 13vw;
+  transform: rotate(5deg);
+  top: 71vw;
+  left: 15vw;
+}
+
+.sticker_203 {
+    width: 12vw;
+    transform: rotate(25deg);
+    top: 80vw;
+    left: 23vw;
+}
+
+.sticker_204 {
+  top: 90vw;
+  width: 20vw;
+  left: 8vw;
+  z-index: 0;
+  transform: rotate(-15deg);
+}
+
+
+
+
+
+/* ------------- 뉴스2 ------------ */
+.moniter2 {
+  width: 76.4vw; height: 155vh !important;
+  left: calc(50% - 40vw);
+  background-color: white;
+  border: solid 30px #E5E5E5;
+  border-radius: 30px 30px 0px 0px;
+}
+
+bold {
+  font-weight: 500;
+}
+
+.text2 {
+  width: 62vw;
+}
+
+.img3-1 {
+  position: relative !important;
+  width: 27vw;
+}
+
+.textextBox {
+  width: 33vw;
+  height: 30vh;
+  position: absolute !important;
+  top: 10vw;
+  right: 0;
+}
+
+
+/* -------------- 뉴스2 스티커 -------------- */
+
+.news2Box {
+  height: 250vh;
+}
+
+.sticker_301 {
+    width: 17vw;
+    top: 97vw;
+    right: 8vw;
+    z-index: 100;
+    transform: rotate(20deg);
+}
+
+.sticker_302 {
+    width: 10vw;
+    top: 194vh;
+    right: 23vw;
+    transform: rotate(-25deg);
+}
+
+.sticker_303 {
+  width: 12vw;
+  top: 9vw;
+  left: 3vw;
+  transform: rotate(-10deg);
+}
+
+.sticker_304 {
+  width: 12vw;
+  z-index: 10;
+  top: 23vw;
+  left: 5vw;
+  transform: rotate(15deg)
+}
+
+.html_css {
+  width: 60vw;
+  left: calc(50% - 30vw);
+}
+
+
+/* ----------------- 뉴스3 ----------------- */
+.news3Box {
+  height: 350vh;
+}
+
+.sticker_401 {
+  width: 11vw;
+  right: 6vw;
+  transform: rotate(10deg);
+  top: 37vw;
+}
+
+.sticker_402 {
+  width: 11vw;
+  transform: rotate(10deg);
+  top: 25vw;
+  right: 10vw;
+}
+
+.sticker_403 {
+  width: 10vw;
+  top: 200vh;
+  left: 12vw;
+  z-index: 100;
+  transform: rotate(-13deg);
+}
+
+/* ----------------- 레시피 ----------------- */
+.recipeBox {
+  height: 50vh;
+}
+
+.recipe {
+  width: 40vw;
+  left: calc(50% - 20vw);
+}
